@@ -1,8 +1,9 @@
-using Systems.Collections.Generic;
+using System.Collections.Generic;
+using MySql.Data.MySqlClient;
 
 namespace HairSalon.Models
 {
-  public class Clients
+  public class Client
   {
     public int ClientId { get; set; }
     public string ClientName { get; set; }

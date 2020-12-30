@@ -1,3 +1,19 @@
 @{
   Layout = "_Layout";
 }
+
+@model List<HairSalon.Models.Stylist>
+@using HairSalon.Models
+
+@if (Model == null)
+{
+  <h3>Currently you don't have any active Stylists!</h3>
+}
+<ol>
+@foreach (Stylist stylist in Model)
+{
+  <li>@Html.ActionLink($"{stylist.StylistName}","Details", new {id = stylist.StylistId})</li>
+}
+</ol>
+
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
