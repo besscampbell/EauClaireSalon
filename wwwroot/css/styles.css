@@ -1,0 +1,8 @@
+div.container {
+  text-align: center;
+}
+
+body {
+  background-image: url(../img/hairsalon.jpg);
+  background-size: cover;
+}

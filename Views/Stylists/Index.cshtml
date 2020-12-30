@@ -5,10 +5,11 @@
 @model List<HairSalon.Models.Stylist>
 @using HairSalon.Models
 
-@if (Model == null)
+@if (Model.Count == 0)
 {
-  <h3>Currently you don't have any active Stylists!</h3>
+  <h3>Currently, you don't have any active Stylists!</h3>
 }
+
 <ol>
 @foreach (Stylist stylist in Model)
 {
