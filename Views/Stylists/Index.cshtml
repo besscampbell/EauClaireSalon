@@ -6,8 +6,8 @@
 @using HairSalon.Models
 
 
-<h2>STYLISTS:</h2>
-
+<h2>Stylists:</h2>
+<hr/>
 @if (Model.Count == 0)
 {
   <h3>Currently, you don't have any active Stylists!</h3>
@@ -16,9 +16,8 @@
 
 @foreach (Stylist stylist in Model)
 {
-  <h3>@Html.ActionLink($"{stylist.Name}","Details", new {id = stylist.StylistId})</h3>
+  <h2>@Html.ActionLink($"{stylist.Name}","Details", new {id = stylist.StylistId})</h2>
 }
 
-
-<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
-<p>@Html.ActionLink("New Stylist", "Create")</p>
+<hr/>
+<p>@Html.ActionLink("Home", "Index", "Home") | @Html.ActionLink("New Stylist", "Create")</p>
