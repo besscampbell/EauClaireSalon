@@ -14,7 +14,7 @@
   As the salon owner, I need to add new stylists to our system when they are hired.
   As the salon owner, I need to be able to add new clients to a specific stylist. I should not be able to add a client if no stylists have been added.
 
-![Splash Page](/HairSalon/wwwroot/img/hairsalonsplash.png)
+![Splash Page](./wwwroot/img/hairsalonsplash.png)
 
 ## Technologies used
 
