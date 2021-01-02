@@ -6,3 +6,7 @@ body {
   background-image: url(../img/hairsalon.jpg);
   background-size: cover;
 }
+
+h1, h3 {
+  color: rgb(162, 217, 224);
+}
