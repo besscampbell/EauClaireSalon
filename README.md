@@ -40,9 +40,9 @@ If you already have the necessary technologies on your local system, the command
 • A browser like [Chrome](https://www.google.com/chrome/)
 
 #### From the web
-1. Go to this [GitHub Repo Page](https://github.com/besscampbell/PierresVenderTracker.git).
+1. Go to this [GitHub Repo Page](https://github.com/besscampbell/EauClaireSalon.git).
 2. Click the "Code" and click the 'Download zip' option.
-3. Unzip the file and navigate to VendorTracker.Solution > VendorTracker
+3. Unzip the file and navigate to `HairSalon` directory
 4. Type in `dotnet restore` to download necessary packages
 5. Then type in `dotnet run` and if the local host does not open automatically type link into browser window.
 6. Navigate through the site by clicking links.
@@ -52,9 +52,9 @@ If you already have the necessary technologies on your local system, the command
 #### From Terminal
 
 1. Open a terminal in your code editor and type 
-: `https://github.com/besscampbell/PierresVenderTracker.git`
-2. Navigate to the directory in the terminal (`cd VendorTracker.Solution`)
-3. Then type `code .` to open it up in VS Code and navigate to the `VendorTracker` directory 
+: `https://github.com/besscampbell/EauClaireSalon.git`
+2. Navigate to the directory in the terminal (`cd HairSalon`)
+3. Then type `code .` to open it up in VS Code
 4. Type in `dotnet restore` to download necessary packages
 5. Then type in `dotnet run` and if the local host does not open automatically type link into browser window.
 6. Navigate through the site by clicking links.
