@@ -29,11 +29,6 @@
 
 ## Installation Requirements
 
-This project requires the technologies listed in the above 'Technologies Used' section. If you need to acquire any of the above technologies to access this project, please follow the instructions included below.
-
-If you already have the necessary technologies on your local system, the commands necessary for running this console application and its tests will be found at the bottom of the instructions list. 
-
-#### Installing Git
 ### Software Requirements
 • A code editor like [VSCode](https://code.visualstudio.com/download)
 • With [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-2.2.106-macos-x64-installer) installed
